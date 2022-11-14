@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <div class="homePage">
+        <h1>Lights up!</h1><br>
+        <form action="radio">
+            <label for="fname" id="name">Name:</label>
+            <input type="text" id="fname" name="fname">
+            <div><img src="./lightbulb.png" alt="lamp"></div>
+            <ul>
+                <li>
+                    <label for="vehicle1"> EZ</label>
+                    <input type="radio" id="easy" name="select" value="easy">
+                </li>
+                <li>
+                    <label for="vehicle2"> ADVANCED</label>
+                    <input type="radio" id="medium" name="select" value="medium">
+                </li>
+                <li>
+                    <label for="vehicle3"> HARCORE</label>
+                    <input type="radio" id="hard" name="select" value="hard">
+                </li>
+            </ul>
+            <br>
+            <button type="submit" value="Submit" id="submitButton">Start!</button>
+        </form>
+    </div>
+    <div class="gamePage">
+        <div id="gameInfo">
+            <h1 id='playerName'></h1>   
+            <h2>Click on white tiles 
+                to place a light bulb!
+            </h4>
+            
+            <h3 id="solved"></h3>
+
+            <button id="restart_btn">Restart the game!</button>
+        </div>
+        <div id="grid"></div>
+    </div>
+    
+</body>
+</html>
