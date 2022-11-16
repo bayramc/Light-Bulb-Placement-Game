@@ -11,4 +11,4 @@ If two light bulbs are illuminating each other it will mark the light bulb as re
 
 Play link
 ----------------------------------
-https://lightboomboom.netlify.app/
+https://lightboom.netlify.app/
